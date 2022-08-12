@@ -1,1 +1,14 @@
-
+.n,
+.nn{
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 40px;
+}
+.n {
+  background: url(../unnamed.jpg');
+}
+.nn {
+  background: url(../unamed.jpg');
+}
