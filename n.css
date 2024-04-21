@@ -1,0 +1,67 @@
+html {
+  --nm1: #df0515;
+  --nm2: #ee0011;
+  --nm3: #ffe2e2;
+
+  --dp: 8px;
+}
+
+.navbar-mopie,
+.play-button,
+header.main {
+  background: var(--nm1);
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #eee;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+  background: #0003;
+}
+.bg-faded,
+header.main .hbox .search form {
+  background: #0003;
+}
+.navbar-mopie .form-control {
+  background: transparent;
+  color: #fff;
+}
+.navbar-mopie .form-control::placeholder,
+header.main .hbox .search form input[type=text]::placeholder {
+  color: #ddd!important;
+}
+.btn-outline-theme {
+  border-color: #0003;
+}
+.btn-theme {
+  background-color: #0003;
+}
+.btn-theme:hover {
+  background-color: #0007;
+}
+a,
+a:hover,
+.thumb ._title:hover,
+.thumb:hover ._title {
+  color: var(--nm1);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--nm2);
+}
+.navbar-brand img {
+  height: calc(var(--dp) * 5);
+  width: fit-content;
+}
+header.main .hbox .search {
+  padding-left: calc(var(--dp) * 2);
+  padding-right: calc(var(--dp) * 2);
+}
+header.main .hbox .search form button[type=submit]:hover {
+  color: var(--nm3);
+}
+.head-main-nav ul.main-header li:hover>a {
+  color: #fff!important;
+}
+a {
+  color: var(--nm3)!important;
+}
